@@ -1,0 +1,87 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: "Courier New", Courier, monospace; /* Typewriter font */
+    background-color: white; /* Black background */
+    color: #02323e; /* Popping color (Orange) */
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header Navigation */
+  header {
+    background-color: #02323e; /* Popping color */
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .segment {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px dashed #02323e;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #02323e; /* Popping color */
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  /* Button */
+  button {
+    background-color: #02323e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #02323e; /* Slightly lighter shade on hover */
+  }
+  
